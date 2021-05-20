@@ -1,0 +1,69 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color:  white;
+    padding-top: 40px;
+}
+
+.nendo-name {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #64dfdf;
+    margin-bottom: 20px;
+}
+
+
+
+#main-navbar {
+    background-color: #2b2d42;
+}
+
+#main-navbar .navbar-brand {
+    letter-spacing: 15px;
+}
+
+#main-navbar a:hover{
+    color: #64dfdf;
+}
+
+@media (max-width: 1455px) {
+    .nendo-name {
+        font-size: 2.8rem;
+    }
+}
+
+
+@media (max-width: 1365px) {
+    .nendo-name {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 1230px) {
+    .nendo-name {
+        font-size: 2.3rem;
+    }
+}
+
+@media (max-width: 1140px) {
+    .nendo-name {
+        font-size: 2.1rem;
+    }
+}
+
+@media (max-width: 1050px) {
+    .nendo-name {
+        font-size: 1.9rem;
+    }
+}
+
+@media (max-width: 960px) {
+    .nendo-name {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 726px) {
+    .nendo-name {
+        font-size: 2rem;
+    }
+}
